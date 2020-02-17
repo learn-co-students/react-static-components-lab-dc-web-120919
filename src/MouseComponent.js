@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class MouseComponent extends React.SuspenseComponent {
+export class MouseComponent extends React.SuspenseComponent {
 
   componentDidMount() {
     require("./hoverEffect.js")
